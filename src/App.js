@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import moment from 'moment';
 function App() {
   return (
     <div className="App">
@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn How React Works
+          Learn How React Works Start at {moment().format('LTS')}
         </a>
       </header>
     </div>
