@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn How React Works Start at {moment().format('LTS')}
+          Learn How React Works Start at {moment().add(1, 'days').calendar()}
         </a>
       </header>
     </div>
